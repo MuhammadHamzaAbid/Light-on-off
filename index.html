@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button onclick="on()">ON</button>
+    <img src="img/pic_bulboff.gif" alt="" id="image" width="200px" height="250px">
+    <button onclick="off()">OFF</button>
+
+    <script>
+
+
+        function on() {
+            var img = document.getElementById("image");
+            var bulb = img.src = 'img/bulb on.jfif'
+            
+        }
+
+        function off() {
+            var img = document.getElementById(`image`)
+            var bulb = img.src = 'img/pic_bulboff.gif'
+            
+        }
+
+    </script>
+</body>
+
+</html>
